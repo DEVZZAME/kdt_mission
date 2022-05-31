@@ -10,5 +10,4 @@
 - 6월 13일
     - 클릭하면 자신이 원하는 페이지로 이동하도록 연결. 단, 클릭 시 새로운 창이 열리면서 링크가 열리도록 할 것
     - 해당 날짜에는 마우스를 올려도 날짜가 커지지 않고 폰트가 두꺼워 지도록 변경
-![calendar_korean](https://user-images.githubusercontent.com/92978598/171103137-e4c33c87-f9bb-461c-b680-61cd7cffaf3b.jpg)
-
+<img width="1503" alt="스크린샷 2022-05-31 오후 3 23 21" src="https://user-images.githubusercontent.com/92978598/171106508-2741452c-cd76-40ba-abe1-c8d997844ab7.png">
