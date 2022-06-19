@@ -130,12 +130,25 @@ input:focus{
 }
 
 /* 가상 요소 선택자 사용 */
-#after::after{
+#after:hover::after{
   /* after */
   content: "after";
 }
 
-#before::before{
+#before:hover::before{
   /* before */
   content: "before";
+}
+
+/* 속성 선택자 사용 */
+[disabled]{
+  background-color: #fff;
+}
+
+[disabled]:not([type="password"]):hover{
+  background-color: aqua;
+}
+
+[type="password"]:hover{
+  background-color: #81b29a;
 }
