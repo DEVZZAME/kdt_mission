@@ -1,11 +1,33 @@
 # KDT 웹 풀스택 양성과정 
 2nd mission
+1. 이전 제출 과제인 HTML 페이지의 각 요소를 오늘 배운 선택자를 전부 활용하여 선택하고 꾸미기
+2. 꾸미기는 오늘 배운 속성 값 정도만 사용하셔도 무방합니다
+3. 사용해야 할 선택자
+    1. 기본 선택자
+        1. 전체 선택자
+        2. 태그 선택자
+        3. class 선택자
+        4. id 선택자
+    2. 복합 선택자
+        1. 일치 선택자
+        2. 직계 자손 선택자
+        3. 후손 선택자
+        4. 인접 형제 선택자f
+        5. 일반 형제 선택자
+    3. 가상 클래스 선택자
+        1. hover
+        2. active
+        3. focus
+        4. first-child
+        5. last-child
+        6. nth-child
+        7. not
+    4. 가상 요소 선택자
+        1. after
+        2. before
+    5. 속성 선택자
+4. 선택자를 적용할 요소가 부족할 경우에는 기존 HTML에 요소를 추가하여 모든 선택자를 사용해 주세요!
+5. git push 가 편하신 분은 기존 깃 리포지토리에 과제 내용을 push 한 다음 깃 리포지토리 주소를 DM으로 제출
+6. git push 가 편하지 않으신 분은 과제를 압축하여 DM으로 제출
 
-- 금일 배운 HTML 태그를 전부 사용하여 자신이 원하는 HTML 문서 만들기
-- 깃허브에 임의의 Repository를 Public으로 만들기
-- 1의 HTML 파일을 3에서 만든 깃허브 Repository에 Push 하기
-- 해당 Repository 의 주소를 강사에게 DM으로 보내기
-
-
-
-<img width="824" alt="스크린샷 2022-06-19 오후 2 58 55" src="https://user-images.githubusercontent.com/92978598/174467935-4c0e29d3-ad89-4c60-a2ea-4651173c1303.png">
+<img width="1038" alt="스크린샷 2022-06-19 오후 4 06 26" src="https://user-images.githubusercontent.com/92978598/174469883-e7ccd109-24e7-4597-b75a-db0f799f3330.png">
