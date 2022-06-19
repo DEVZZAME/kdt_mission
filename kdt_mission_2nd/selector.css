@@ -131,9 +131,11 @@ input:focus{
 
 /* 가상 요소 선택자 사용 */
 #after::after{
+  /* after */
   content: "after";
 }
 
 #before::before{
+  /* before */
   content: "before";
 }
