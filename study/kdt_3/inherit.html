@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent {
+      width: 400px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    #parent_bob {
+      width: 100px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    .child {
+      /* width: inherit; */
+      /* 
+      division의 경우 부모 요소의 값을 그대로 상속 받기 때문에
+      attribute를 따로 지정해주지 않을 경우 부모 요소의 값을 상속
+      value에 inherit을 지정할 경우 부모요소의 value를 그대로 상속
+      부모 요소에 없는 값은 상속 받을 수 없기 때문에 부모 요소의 attribute 지정은 필수
+      */
+      height: inherit;
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="parent" id="parent_bob">
+    <div class="child"></div>
+  </div>
+</body>
+
+</html>
+
+
+<!-- Specificity Calculator
+https://specificity.keegan.st/
+https://polypane.app/css-specificity-calculator/
+-->
