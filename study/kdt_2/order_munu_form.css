@@ -1,0 +1,15 @@
+body{
+  margin: 0; padding: 0;
+}
+
+.container{
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#order_button{
+  margin-top: 15px;
+}

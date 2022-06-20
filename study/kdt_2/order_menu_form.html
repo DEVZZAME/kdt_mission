@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>카페 음료 주문 문서 작성</title>
+  <link rel="stylesheet" href="order_munu_form.css">
+</head>
+
+<body>
+  <h1>Any Cafe</h1>
+  <h2>Just Coffee</h2>
+  <ul>
+    <li>Coffee
+      <ol>
+        <li>$3</li>
+      </ol>
+    </li>
+    <li>Latte
+      <ol>
+        <li>$4</li>
+      </ol>
+    </li>
+    <li>Hot Chocolate
+      <ol>
+        <li>$5</li>
+      </ol>
+    </li>
+    <li>Lemonade
+      <ol>
+        <li>$5</li>
+      </ol>
+    </li>
+    <li>Green Tea
+      <ol>
+        <li>$5</li>
+      </ol>
+    </li>
+  </ul>
+  <hr>
+  <p><b>Coffee</b> is a <strong>coffee</strong></p>
+  <pre><i>Latte</i> is a coffee with <em>milk</em></pre>
+  <p><del>Hot Chocolate</del> is taste good</p>
+  <pre>
+    <u>Lemonade</u> quite is sour
+  </pre>
+  <p>Green Tea is a just green tea</p>
+  <hr>
+  <div class="container">
+    <input type="text" name="orderer_name" value="주문자 이름을 입력해주십시오.">
+    <hr>
+    <h1 id="main_text">단체 주문 파트</h1>
+    <h3 id="sub_text">메뉴 선택</h3>
+    <input type="checkbox" value="Coffee" checked>Coffee
+    <input type="checkbox" value="Latte">Latte
+    <input type="checkbox" value="Hot_Chocolate">Hot Chocolate
+    <input type="checkbox" value="Lemonade">Lemonade
+    <input type="checkbox" value="Green_Tea">Green Tea
+    <br>
+    <h3 id="sub_text">주문 날짜</h3>
+    <input type="datetime-local">
+    <h3 id="sub_text">개별 주문 파트</h1>
+      <h3 id="sub_text">메뉴 선택</h3>
+      <input type="radio" value="Coffee" checked>Coffee
+      <input type="radio" value="Latte">Latte
+      <input type="radio" value="Hot_Chocolate">Hot Chocolate
+      <input type="radio" value="Lemonade">Lemonade
+      <input type="radio" value="Green_Tea">Green Tea
+      <br>
+      <h3 id="sub_text">주문 날짜</h3>
+      <input type="datetime-local">
+      <br>
+      <input type="button" id="order_button" value="주문하기">
+  </div>
+</body>
+
+</html>
