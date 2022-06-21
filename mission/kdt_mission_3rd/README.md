@@ -18,4 +18,5 @@
     3. 일요일
         1. 다른 요일과 다른 배경색 적용
         
-![스크린샷-2022-06-21-오전-2 56 12](https://user-images.githubusercontent.com/92978598/174657067-752b3d44-3670-4f30-8fea-2116e2adf16d.jpg)
+
+![스크린샷-2022-06-21-오전-2 56 12](https://user-images.githubusercontent.com/92978598/174700907-c8734599-ff3a-4b0f-86f6-a7560ae3b8f6.jpg)
