@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container1{
+      display: flex;
+      width: 500px; height: 500px; background-color: skyblue; 
+      margin-bottom: 10px;
+      flex-wrap: nowrap;
+    }
+    .container2{
+      display: flex;
+      width: 500px; height: 500px; background-color: skyblue; 
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .container3{
+      display: flex;
+      width: 500px; height: 500px; background-color: skyblue; 
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .container4{
+      display: flex;
+      width: 500px; height: 500px; background-color: skyblue; 
+      align-content: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .container5{
+      display: flex;
+      width: 500px; height: 500px; background-color: skyblue; 
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+    }
+    .item{
+      width: 100px; height: 100px; background-color: orange;
+      border: 4px dashed red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+  <div class="container2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+  <div class="container3">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+  <div class="container4">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+  <div class="container5">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+</body>
+</html>
+
+<!-- 
+  500px 500px 컨테이너 선언
+  100px 100px 아이템 div 8개 선언
+  컨테이너 안에 한 줄이 되도록 설정
+  해당 아이템을 가로, 세로 수직 정렬하기
+  컨테이터 안에 두 줄이 되도록 설정
+  해당 아이템을 하나로 뭉쳐서 가로, 세로 수직 정렬하기
+  해당 아이템을 각각의 flex 줄에 가로, 세로 수직 정렬하기
+ -->
