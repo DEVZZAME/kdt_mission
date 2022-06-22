@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display</title>
+  <style>
+    div{
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .hide {
+      background-color: royalblue;
+      cursor: pointer;
+    }
+
+    .hide:hover {
+      display: none;
+    }
+    #box1{
+      opacity: 0;
+      background-color: royalblue;
+    }
+    #box2{
+      opacity: 0.3;
+      background-color: royalblue;
+    }
+    #box3{
+      opacity: 0.6;
+      background-color: royalblue;
+    }
+    #box4{
+      opacity: 0.9;
+      background-color: royalblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hide"></div><br>
+  <div id="box1">0%</div>
+  <div id="box2">30%</div>
+  <div id="box3">60%</div>
+  <div id="box4">90%</div>
+</body>
+
+</html>
+
+<!-- 
+  div 요소의 크기를 200px 200px 배경 파란색으로 설정
+  해당 div에 마우스가 올라가면 요소가 사라지도록 만들기
+ -->
+ <!-- 
+  div 요소의 크기를 200px 200px 배경 파란색으로 설정 x 4
+각각 원하는 opacity 속성을 적용하기!
+  -->

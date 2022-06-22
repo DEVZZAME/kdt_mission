@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      width: 800px; height: 500px;
+      background-color: orange;
+      background-image: url("https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861f604e7b0e6900f9ac53a43965300eb9a");
+      margin-bottom: 10px;
+    }
+    #box1{
+      background-position: center;
+      background-repeat: repeat-x;
+    }
+    #box2{
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 100px 30px;
+    }
+    #box3{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top right;
+    }
+  </style>
+</head>
+<body>
+  <div id="box1"></div>
+  <div id="box2"></div>
+  <div id="box3"></div>
+</body>
+</html>
+<!-- 
+  800px 500px 배경색 하늘색 div 선언 x 3
+  1번 div
+  라이언 이미지 크기 그대로 수직 중앙에 배치, x 축으로만 반복하도록 설정
+  2번 div
+  라이언 이미지의 크기를 짧은 축에 맞추고, 왼쪽에서 100px 위에서 30px 떨어지도록 설정
+  3번 div
+  라이언 이미지의 크기를 긴 축에 맞추고, 포지션 값 조정해 보기
+ -->

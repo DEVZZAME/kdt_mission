@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent {
+      width: 200px;
+      height: 200px;
+      background-color: royalblue;
+      overflow-x: hidden;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+
+    .child {
+      width: 100px;
+      height: 400px;
+      background-color: orange;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="parent" id="p_box1">
+    <div class="child" id="c_box1"></div>
+  </div>
+  
+</body>
+
+</html>
+
+<!-- 
+부모 div 요소의 크기를 200px 200px 배경 파란색으로 설정
+자식 div 요소의 크기를 400px 100px 배경 오랜지로 설정
+위와 같은 케이스를 4개 생성 후, overflow 속성을 각각 적용
+자식 요소의 크기를 100px 400px 로 변경 후, overflow 속성을 각각 적용
+visible hidden auto scroll 
+ -->
