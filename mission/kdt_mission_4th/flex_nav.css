@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'HallymGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'HallymGothic-Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  height: 3000px;
+  margin: 0;
+  background-image: url("img/ryan01.png"), linear-gradient(180deg, #fff, #fff,#fff, #f6e24b);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.left_bar {
+  position: relative;
+  width: 100px;
+  height: 3000px;
+  left: 20px;
+  background: linear-gradient(180deg, #f6e24b, #f6e24b,#3479ff, #3479ff);
+}
+
+/* container 공통속성 */
+.container {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+/* item 공통속성 */
+.item {
+  height: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* container 개별속성 */
+#container1 {
+  top: 0px;
+  background-color: #f6e24b;
+}
+
+#container2 {
+  bottom: 0px;
+  background-color: #3479ff;
+}
+
+/* item 개별속성 */
+#item1 {
+  flex-basis: 150px;
+  background-color: #3479ff;
+  color: #fff;
+}
+
+#item2 {
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: #f6e24b;
+  color: #000;
+}
+
+#container2 *:last-child {
+  flex-grow: 2;
+  background-color: #f6e24b;
+}
+
+/* item hover 적용 */
+#item1:hover {
+  background-color: #f6e24b;
+  color: #000;
+  box-shadow: 0.5px 0.5px 0.5px #000;
+  cursor: pointer;
+  
+}
+
+#item2:hover {
+  background-color: #3479ff;
+  color: white;
+  box-shadow: 0.5px 0.5px 0.5px #000;
+  cursor: pointer;
+}
