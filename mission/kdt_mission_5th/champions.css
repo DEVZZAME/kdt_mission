@@ -1,0 +1,114 @@
+body{
+  background-image: url('https://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/environmentart-sru-04_1920_1.jpg?itok=4T0oDnTb&_gl=1*21r9f4*_ga*MTU5Njk2MjM3LjE2NTYwOTQxMTk.*_ga_FXBJE5DEDD*MTY1NjA5NDExOS4xLjAuMTY1NjA5NDExOS42MA..&_ga=2.231544351.1038898712.1656094119-159696237.1656094119');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  display: flex;
+  width: inherit;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 70px;
+  margin-bottom: 15px;
+  padding: 20px 40px;
+  border-bottom: 3px double gray;
+  justify-content: center;
+  background-image: url('https://w.namu.la/s/3f9849c1cc3f20e6319e09a57c0199d7c3e935a92918332b167e8ea05a52c986e0ddd9de092ea20cb101c6c282d32a4723b64630f848251963de03c62bfefce5c6ffa6e63fbae2bd83375094a6892241dd7ee4d170721dc7997a8ec00f3f4465471e8d621a7f081e8f67afed61b43f82');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 70px;
+  padding: 20px 40px;
+  margin-top: 15px;
+  border-top: 3px double gray;
+  justify-content: center;
+  background-image: url('img/ready.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.champions{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 790px;
+  height: 60vh;
+  padding: 40px 40px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.champions::-webkit-scrollbar {
+  width: 8px;
+}
+
+.champions::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.champions::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.champion{
+  width: 84px;
+  height: 104px;
+  margin: 15.3px;
+  text-align: center;
+
+}
+.portrait{
+  width: inherit;
+  height: 80px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+  background-image: url('img/Ahri_Square_0.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid gray;
+
+}
+.name{
+  width: inherit;
+  height: 20px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.portrait:hover{
+transform: scale(1.3);
+transition: all 0.5s;
+border: 2px solid #dba150;
+}
+
+.portrait:active{
+  transform: scale(1.3);
+  transition: all 0.5s;
+  border: 2px solid #dba150;
+  border-radius: 50%;
+}
