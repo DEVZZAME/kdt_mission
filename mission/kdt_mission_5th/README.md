@@ -12,7 +12,9 @@
 - 마크업 전에 구상했던 HTML 구조
 - <img width="976" alt="스크린샷 2022-06-25 오전 3 39 03" src="https://user-images.githubusercontent.com/92978598/175699002-6082e039-12ce-4910-ae16-1ea246eb8e95.png">
 
--배포한 사이트 도메인과 결과물
+- 배포한 사이트 도메인 : 
 https://cheerful-sawine-d8c98b.netlify.app/
+
+- 결과물
 <img width="1512" alt="스크린샷 2022-06-25 오전 7 02 34" src="https://user-images.githubusercontent.com/92978598/175699094-8122f124-35de-48de-8176-a861c0385f78.png">
 
