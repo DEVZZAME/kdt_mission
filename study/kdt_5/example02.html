@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* item 공통속성 */
+    .item {
+      width: 100px;
+      height: 100px;
+      background-color: skyblue;
+      margin: 50px;
+    }
+
+    .child {
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+      transition: all 1s;
+    }
+
+    #rotate_2d:active {
+      transform: translate(120px, 0) rotate(45deg);
+    }
+
+    #transition:active {
+      transform: translate(120px, 0) scaleX(2);
+    }
+
+    #rotate_3d:active {
+      transform: perspective(300px) rotateY(180deg);
+    }
+
+    #skew:active {
+      transform: translate(120px, 0) skew(-45deg);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item">
+      <div class="child" id="rotate_2d"></div>
+    </div>
+    <div class="item">
+      <div class="child" id="transition"></div>
+    </div>
+    <div class="item">
+      <div class="child" id="rotate_3d"></div>
+    </div>
+    <div class="item">
+      <div class="child" id="skew"></div>
+    </div>
+  </div>
+</body>
+
+</html>

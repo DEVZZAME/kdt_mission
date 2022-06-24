@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example01</title>
+  <style>
+    .container {
+      display: flex;
+      width: 500px;
+      height: 500px;
+      background-color: skyblue;
+    }
+
+    .item {
+      display: flex;
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+      border: 2px dashed gray;
+      box-sizing: border-box;
+      transition: all 1s;
+    }
+
+    .container:active {
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    #item_hover:hover {
+      border-radius: 50%;
+      background-color: yellowgreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item" id="item_hover"></div>
+  </div>
+
+</body>
+
+</html>

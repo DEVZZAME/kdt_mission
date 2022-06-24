@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 40px;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: royalblue;
+    }
+    div>.child{
+      width: 100px;
+      height: 100px;
+      background-color: coral;
+      /* opacity: 0.5; */
+      transition: 1s;
+    }
+    div>.child:active{
+      transform: perspective(300px) rotateY(180deg);
+      backface-visibility: hidden;
+      transition-duration: 4s;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="child">ABCD</div>
+  </div>
+</body>
+
+</html>
