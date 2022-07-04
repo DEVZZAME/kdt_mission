@@ -1,0 +1,159 @@
+/* COMMON */
+body {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+header {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+header .inner {
+  display: flex;
+  position: relative;
+  width: 1200px;
+  height: 64px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+/* HEADER LOGO */
+header .inner .header__logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 32px;
+}
+
+header .inner .header__logo a {
+  font-size: 32px;
+  color: #1dc078;
+}
+
+header .inner .header__logo a i {
+  font-size: 32px;
+  color: #1dc078;
+}
+
+/* HEADER MENU */
+header .inner .header__menu {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 200px;
+  top: 0;
+  bottom: 0;
+  height: 32px;
+  /* transform: translate(-50%, 0); */
+}
+
+header .inner .header__menu li {
+  padding: 8px 16px;
+}
+
+header .inner .header__menu li a {}
+
+header .inner .header__menu li a:hover {
+  color: #1DC078;
+}
+
+/* HEADER SEARCH */
+header .inner .header__search {
+  position: absolute;
+  right: 350px;
+  height: 36px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+header .inner .header__search input {
+  width: 148px;
+  height: 36px;
+  font-size: 1rem;
+  padding: 5px 9px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+}
+
+header .inner .header__search input:focus {
+  outline-color: #1DC078;
+  /* outline: none;
+  box-shadow: inset 0px 0px 0 2px #1DC078; */
+}
+
+header .inner .header__search input:hover {
+  border: 1px solid #c8c8c8;
+}
+
+header .inner .header__search i {
+  position: absolute;
+  right: 9px;
+  font-size: 1rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1rem;
+}
+
+/* HEADER PARTICIPATION */
+header .inner .header__participation {
+  position: absolute;
+  right: 230px;
+  height: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+header .inner .header__participation a {}
+
+header .inner .header__participation a:hover {
+  color: #1DC078;
+}
+
+
+/* HEADER BUTTON */
+header .inner .header__btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 32px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+header .inner .header__btn .header__btn__signin {
+  padding: 8px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: 1px solid #DBDBDB;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+header .inner .header__btn .header__btn__signup {
+  padding: 8px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: 1px solid #DBDBDB;
+  border-radius: 4px;
+  background-color: #FF7867;
+}
+
+header .inner .header__btn .header__btn__signin:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+header .inner .header__btn .header__btn__signup:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
