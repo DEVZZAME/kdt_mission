@@ -31,8 +31,9 @@ header .inner .header__logo {
 }
 
 header .inner .header__logo a {
-  font-size: 32px;
-  color: #1dc078;
+  background-image: url('https://elice.io/static/dc6054e07cd72edccb4c2f0ceccedb97/cdfa4/elice_logo.webp');
+  background-position: center;
+  background-size: contain;
 }
 
 header .inner .header__logo a i {

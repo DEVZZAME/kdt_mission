@@ -1,0 +1,134 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+body{
+  background-image: url('https://elice.io/static/main_gradient_bg-e90a62efb6452e1e7ba2c5c8f7d8220b.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .outer{
+  position: relative;
+  display: flex;
+  height: 72px;
+  margin: auto;
+}
+
+header .outer:hover{
+  background-color: #fff;
+  transition: all 1s;
+}
+
+header .inner {
+  position: relative;
+  display: flex;
+  width: 1232px;
+  height: 72px;
+  padding: 0 24px;
+  margin: auto;
+}
+
+header .inner .header__logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 105px;
+  height: 32px;
+  
+}
+
+header .inner .header__logo a{
+  position: absolute;
+  background-image: url('https://elice.io/static/dc6054e07cd72edccb4c2f0ceccedb97/cdfa4/elice_logo.webp');
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+header .inner .header__menu {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 170px;
+  top: 0;
+  bottom: 0;
+  height: 32px;
+  line-height: 32px;
+  /* transform: translate(-50%, 0); */
+}
+
+header .inner .header__menu li {
+  margin: 0px 40px 0px 0px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' -25,
+  'opsz' 20;
+  font-size: 19px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.header__menu *:hover{
+  background-color: #f1f3f5;
+  border-radius: 4px;
+}
+
+.header__menu__service:hover .service1{
+  transform: rotate(180deg);
+  transition: all 0.2s;
+}
+.header__menu__elice:hover .elice1{
+  transform: rotate(180deg);
+  transition: all 0.2s;
+}
+
+header .inner .header__btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 32px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+header .inner .header__btn .header__btn__signin {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+header .inner .header__btn .header__btn__support {
+  padding: 13px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  background-color: #353A3F;
+  color: #FFF;
+  font-size: 14px;
+  /* margin: auto; */
+  line-height: 6px;
+}
+
+header .inner .header__btn .header__btn__signin:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+header .inner .header__btn .header__btn__support:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
