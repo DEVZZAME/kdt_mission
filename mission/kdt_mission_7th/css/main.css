@@ -1,0 +1,213 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* Common */
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  font-weight: 400;
+  background-image: url('https://elice.io/static/main_gradient_bg-e90a62efb6452e1e7ba2c5c8f7d8220b.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1232px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 250,
+    'GRAD' -25,
+    'opsz' 20;
+  font-size: 20px !important;
+  position: relative;
+  top: 4.5px;
+  left: 1px;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+}
+
+/* Outer */
+header .outer {
+  width: 100%;
+  height: 72px;
+}
+
+header .outer:hover {
+  background-color: #fff;
+}
+
+/* Inner */
+header .inner {
+  height: 72px;
+  /* padding: 0 24px; */
+  margin: auto;
+}
+
+/* Logo */
+header .inner .header__logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 105px;
+  height: 32px;
+}
+
+header .inner .header__logo a {
+  position: absolute;
+  background-image: url('https://elice.io/static/dc6054e07cd72edccb4c2f0ceccedb97/cdfa4/elice_logo.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* Menu */
+header .inner .header__menu {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 130px;
+  top: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+header .inner .header__menu .item .item__name a {
+  display: block;
+  margin-right: 11px;
+  border-radius: 5px;
+  line-height: 41px;
+  padding: 0 10px;
+  width: auto;
+  height: 40px;
+  color: #222529;
+}
+
+header .inner .header__menu .item .item__name a:hover {
+  background-color: #f5f5f5;
+}
+
+header .inner .header__menu .item .item__name a span {
+  transition: 300ms;
+}
+
+header .inner .header__menu .item .item__name a:hover span {
+  transform: rotate(180deg);
+}
+
+/* Member */
+
+header .inner .header__member {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #4A5056;
+}
+
+header .inner .header__member .header__member__signin {
+  margin-right: 20px;
+}
+
+header .inner .header__member .header__member__support {
+  margin-right: 8px;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #353a3f;
+  color: #fff;
+}
+
+header .inner .header__member .header__member__signin:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+header .inner .header__member .header__member__support:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* drop down menu */
+
+header .inner .header__menu .item .item__contents{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+
+header .inner .header__menu .item:hover .item__contents {
+  display: block;
+}
+
+header .inner .header__menu .item .item__contents .item__contents__menu{
+  background-color: #fff;
+  padding: 0;
+  width: 100%;
+}
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner {
+  height: 100%;
+}
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner li p {
+  font-size: 14px;
+  padding: 0px 350px 0 0;
+}
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner li>ul {
+  width: 290px;
+  padding: 0px 30px;
+} 
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner li>ul:hover {
+  background-color: #f6efefc8;
+  cursor: pointer;
+}
+
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner li>ul li {
+  /* padding-bottom: 5px; */
+  font-size: 15px;
+}
+
+header .inner .header__menu .item .item__contents .item__contents__menu .inner li>ul span {
+  color: rgb(180, 179, 179);
+  font-size: 14px;
+}
+
+header .inner .header__menu .item .item__contents .inner li ul li span{
+  font-size: 18px !important;
+  color: #000 !important;
+  position: relative;
+  top: 3.6px !important;
+  left: -15px !important;
+  display: none;
+}
+
+header .inner .header__menu .item .item__contents .inner li ul li:hover span{
+  display: inline;
+}
