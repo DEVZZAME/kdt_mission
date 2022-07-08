@@ -211,3 +211,5 @@ header .inner .header__menu .item .item__contents .inner li ul li span{
 header .inner .header__menu .item .item__contents .inner li ul li:hover span{
   display: inline;
 }
+
+/* <img> 태그 사용시 float 속성으로 배치 */
