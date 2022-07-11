@@ -188,18 +188,18 @@ let num2 = 11;
 
 console.log(num1, "X", num2, "=", multiple(num1, num2), "입니다!"); //110
 
-let tetz = "이효석";
-let gender = "male";
+// let tetz = "이효석";
+// let gender = "male";
 
-if (gender == "male") {
-  if (tetz == "이효석") {
-    alert("잘 찾으셨습니다!");
-  } else {
-    alert("이름이 틀렸네요");
-  }
-} else {
-  alert("성별이 틀렸습니다.");
-}
+// if (gender == "male") {
+//   if (tetz == "이효석") {
+//     alert("잘 찾으셨습니다!");
+//   } else {
+//     alert("이름이 틀렸네요");
+//   }
+// } else {
+//   alert("성별이 틀렸습니다.");
+// }
 // Switch 이용해서 오늘 요일 출력하기
 // Switch
 let day;
@@ -240,32 +240,32 @@ let dayArray = [
   "금요일",
   "토요일",
 ];
-let dayName = "";
-if (today == 0) {
-  alert(dayArray[today]);
-} else if (today == 1) {
-  alert(dayArray[today]);
-} else if (today == 2) {
-  alert(dayArray[today]);
-} else if (today == 3) {
-  alert(dayArray[today]);
-} else if (today == 4) {
-  alert(dayArray[today]);
-} else if (today == 5) {
-  alert(dayArray[today]);
-} else if (today == 6) {
-  alert(dayArray[today]);
-} else {
-  alert("존재하지 않는 값입니다.");
-}
+// let dayName = "";
+// if (today == 0) {
+//   alert(dayArray[today]);
+// } else if (today == 1) {
+//   alert(dayArray[today]);
+// } else if (today == 2) {
+//   alert(dayArray[today]);
+// } else if (today == 3) {
+//   alert(dayArray[today]);
+// } else if (today == 4) {
+//   alert(dayArray[today]);
+// } else if (today == 5) {
+//   alert(dayArray[today]);
+// } else if (today == 6) {
+//   alert(dayArray[today]);
+// } else {
+//   alert("존재하지 않는 값입니다.");
+// }
 
-// fora문
+// for문
 for(let i = 0; i < 100; i++){
   console.log(i+1, '번째 반복중...');
 }
 
 // 구구단을 반복문을 이용해서 console.log 로 출력해 보자!
-for (let i = 1; i <= 9; i++) {
+for (let i = 2; i <= 9; i++) {
   for (let j = 1; j <= 9; j++) {
     console.log(i + " X " + j + " = " + i * j);
   }
@@ -285,3 +285,20 @@ for (let i = 0; i <= 100; i++) {
 console.log(
   "1부터 100 사이에 존재하는 2의 배수와 5의 배수의 총합은 " + sum1 + "입니다."
 );
+
+
+
+let boxEl = document.querySelector(".box");
+boxEl.addEventListener("click", () => {
+  if (boxEl.classList.contains("orange")) {
+    boxEl.classList.remove("orange");
+    boxEl.classList.add("skyblue");
+  } else {
+    boxEl.classList.remove("skyblue");
+    boxEl.classList.add("orange");
+  }
+})
+const boxEls = document.querySelectorAll(".box");
+boxEls.forEach(() => {
+
+})
