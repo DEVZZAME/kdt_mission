@@ -207,7 +207,7 @@
 
 // let pororo = {
 //   name: "뽀로로",
-//   age: 9,
+//   age: 7,
 // }
 // console.log(pororo);
 

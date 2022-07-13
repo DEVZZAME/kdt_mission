@@ -106,3 +106,31 @@
 // }
 // superman.fly();
 // superman.landing();
+
+// let hello = "Hello";
+// // let helloArr = hello.split("");
+// // console.log(helloArr);
+// // let reverseArr = helloArr.reverse();
+// // console.log(reverseArr);
+// // let joinStr = reverseArr.join();
+// // console.log(joinStr);
+// let result = hello.split("").reverse().join("");
+// console.log(result);
+
+// .split : 문자를 인수를 기준으로 쪼개서 배열로 반환
+// .reverse : 배열의 순서를 뒤집어서 반환
+// .join : 배열을 인수 기준으로 병합해서 문자열을 반환
+
+// const superman = {
+//   name: "Clark",
+//   age: 33,
+//   height: 187,
+//   weight: 77,
+// }
+
+// console.log(superman.name);
+// console.log(superman['age']);
+// console.log(superman.condition);
+
+// superman.hairColor = "blonde";
+
