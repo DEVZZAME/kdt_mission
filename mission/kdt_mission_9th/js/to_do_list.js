@@ -29,10 +29,19 @@ function onSubmit(e) {
   });
 
   // 5
-  li.addEventListener("dblclick", function () {
-    ul.removeChild(li);
-  });
-}
+  // li.addEventListener("dblclick", function () {
+  //   ul.removeChild(li);
+  // });
+
+  // 6 appendChild()가 아니라, append() 사용했을 시 사용 권장
+  // li.addEventListener("dblclick", function(e){
+  //   e.target(ul.removeChild(li));
+  //   console.log(e.target); 
+  //   if(e.target.tagName === "INPUT" && e.target.getAttribute("type") === "button"){
+  //   e.target.parentNode.remove();
+  // }
+  // })
+
 // 1
 // <form> 태그는 <button>이나 다른 태그에 의해 submit이 될 경우,
 // 페이지를 다시 Reload 하는 기능을 내장하고 있다.
@@ -59,3 +68,8 @@ function onSubmit(e) {
 // 이미 수행완료된 리스트는 구분해주어야 하기 때문에,
 // 한 번 클릭 했을 경우엔, 가운뎃줄을 그어주고,
 // 두 번 클릭 했을 경우엔, 완전히 해당 태그를 삭제해주는 코드를 작성한다.
+
+// 6
+// e.target은 정확히 this와 일치한다.
+// 즉, e.target은 개발자가 지정한 event가 실행되었을 경우,
+// 해당 요소(element)를 가르킨다.
