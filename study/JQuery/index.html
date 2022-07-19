@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,73 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/index.css">
   <script defer src="./js/index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+  <title>JQuery - Practice</title>
 </head>
+
 <body>
-  
+  <input type="text" class="input-text">
+  <input type="button" class="btn" value="버튼">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
 </body>
+
 </html>
+
+
+<!-- !!!!!!!!!!!!!!!다시 해보기!!!!!!!!!!! -->
+<!-- 텍스트 인풋 / 버튼 / ul 태그 (li 자식을 4개 가지도록 만들기)
+버튼 클릭 시, 텍스트 인풋의 내용을
+<ul> 태그의 마지막 자식으로 삽입
+<ul> 태그의 첫번째 자식으로 삽입
+위의 기능을 JS, JQ로 구현
+또 다른 <ul> 태그의 형제로 삽입(앞, 뒤)
+이 것은 JQ 로만 구현하기 -->
+
+<!-- <input type="text" class="text-input">
+  <input type="button" class="btn1" value="버튼1">
+  <input type="button" class="btn2" value="버튼2">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul> -->
+
+<!-- 100 x 100 div 요소 하나, 버튼을 2개(변경1, 변경2) 만들기
+버튼을 누르면 div 요소의 색상을 오렌지로 변경
+변경1은 JS 로 구현
+변경2는 JQ 로 구현 -->
+
+<!-- <input type="button" value="변경1" class="btn1" onclick="changeCss1();">
+  <input type="button" value="변경2" class="btn2" onclick="changeCss2();">
+  <div></div> -->
+<!-- <style>
+    .orange {
+      background-color: orange;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+    }
+  </style> -->
+
+<!-- Text 타입 input 하나, 버튼을 2개(변경1, 변경2) 만들기
+변경1을 누르면 text 타입 input 의 placeholder 를 “변경1을 누르셨습니다“ 로 변경
+변경2를 누르면 text 타입 input 을 radio 버튼으로 변경하기
+실습 내용을 JS와 JQ로 구현하기! -->
+
+<!-- <input type="text" class="text-input">
+  <input type="button" class="modify1-btn" value="변경1">
+  <input type="button" class="modify2-btn" value="변경2"> -->
+
+<!-- Text 타입 input 하나, 버튼을 2개(출력, 변경), span 1개  만들기
+변경을 누르면 input 의 value 값을 “가나다라마바사”로 만들기
+출력을 누르면 input 에 입력한 내용이 span 의 내용으로 적용되도록 만들기
+실습 내용을 JS와 JQ로 구현하기! -->
