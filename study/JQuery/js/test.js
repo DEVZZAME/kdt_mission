@@ -58,5 +58,3 @@
 //   t.remove();
 // }
 
-
-// JQuery 구현
