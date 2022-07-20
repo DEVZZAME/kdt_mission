@@ -18,3 +18,4 @@ function writeSchedule() {
   $(currentTarget).append(`<div>${task}</div>`);
   $("#content").val("");
 }
+
