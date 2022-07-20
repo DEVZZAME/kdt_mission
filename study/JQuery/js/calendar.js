@@ -15,8 +15,6 @@ $("td").on("click", function (e) {
 //   e.currentTarget = null;
 // });
 
-
-
 // const date = document.querySelector("#date");
 // const content = document.querySelector("#content");
 // const btn = document.querySelector("button");
