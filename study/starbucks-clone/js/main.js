@@ -71,16 +71,48 @@ promotionToggleBtn.addEventListener("click", function () {
   }
 
   if (promotionToggleIcon.style.transform === "rotate(-180deg)") {
-        promotionToggleIcon.style.transform = "rotate(0deg)";
-      } else {
-        promotionToggleIcon.style.transform = "rotate(-180deg)";
-      }
-    
+    promotionToggleIcon.style.transform = "rotate(0deg)";
+  } else {
+    promotionToggleIcon.style.transform = "rotate(-180deg)";
+  }
 });
 
 //SCROLL ANIMATION
+window.onload = () => {
+  const visualInner = document.querySelector(".visual .inner");
+  visualInner.classList.add("visual-animate");
+};
+
 let scrollYpos;
-window.addEventListener("scroll", function(){
+window.addEventListener("scroll", function () {
   scrollYpos = window.scrollY;
   console.log(scrollYpos);
-})
+  
+  // ADD CLASS peru-animate
+  if (scrollYpos > 470) {
+    const peruAnimate = document.querySelector(".peru");
+    peruAnimate.classList.add("peru-animate");
+  }
+    // ADD CLASS indonesia-animate
+  if (scrollYpos > 900) {
+    const indonesiaAnimate = document.querySelector(".indonesia");
+    indonesiaAnimate.classList.add("indonesia-animate");
+  }
+    // ADD CLASS favorite-animate
+  if (scrollYpos > 1375) {
+    const favAnimate = document.querySelector(".favorite");
+    favAnimate.classList.add("favorite-animate");
+  }
+    // ADD CLASS magazine-animate
+  if (scrollYpos > 2150) {
+    const magAnimate = document.querySelector(".magazine");
+    magAnimate.classList.add("magazine-animate");
+  }
+    // ADD CLASS store-animate
+  if (scrollYpos > 2650) {
+    const storeAnimate = document.querySelector(".store");
+    storeAnimate.classList.add("store-animate");
+  }
+});
+
+

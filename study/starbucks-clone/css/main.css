@@ -369,30 +369,30 @@ header .badges .badge {
   opacity: 0;
 }
 
-.visual .inner:hover .slogan {
+.visual .inner.visual-animate .slogan {
   transition: 0.4s;
   opacity: 1;
 }
 
-.visual .inner:hover .item_1.image {
+.visual .inner.visual-animate .item_1.image {
   transition: 0.4s;
   opacity: 1;
   transition-delay: 0.4s;
 }
 
-.visual .inner:hover .item_2.image {
+.visual .inner.visual-animate .item_2.image {
   transition: 0.4s;
   opacity: 1;
   transition-delay: 0.8s;
 }
 
-.visual .inner:hover .item_3.image {
+.visual .inner.visual-animate .item_3.image {
   transition: 0.3s;
   opacity: 1;
   transition-delay: 1.2s;
 }
 
-.visual .inner:hover .slogan .btn {
+.visual .inner.visual-animate .slogan .btn {
   transition: 0.4s;
   opacity: 1;
   transition-delay: 1.6s;
@@ -710,10 +710,10 @@ header .badges .badge {
   opacity: 0;
 }
 
-.peru:hover .inner .img_product {
+.peru.peru-animate .inner .img_product {
   transform: translate(0px, 0);
   opacity: 1;
-  transition: 2.5s;
+  transition: 1.3s;
 }
 
 .peru .inner .peru__contents {
@@ -724,9 +724,9 @@ header .badges .badge {
   transform: translate(900px, 0);
 }
 
-.peru:hover .inner .peru__contents {
+.peru.peru-animate .inner .peru__contents {
   transform: translate(0px, 0);
-  transition: 2.5s;
+  transition: 1.3s;
 }
 
 .peru .inner .peru__contents .img_text {
@@ -787,14 +787,14 @@ header .badges .badge {
   opacity: 0;
 }
 
-.indonesia:hover .inner .indonesia__img {
+.indonesia.indonesia-animate .inner .indonesia__img {
   transition: 1.5s;
   opacity: 1;
   transition-delay: 0.8s;
 }
 
-.indonesia:hover::before,
-.indonesia:hover::after {
+.indonesia.indonesia-animate::before,
+.indonesia.indonesia-animate::after {
   opacity: 1;
   transition: 1.5s;
 }
@@ -833,12 +833,12 @@ header .badges .badge {
   transform: translate(-700px);
 }
 
-.favorite:hover .inner .favorite__title_1 {
+.favorite.favorite-animate .inner .favorite__title_1 {
   transform: translate(0px);
   transition: 2s;
 }
 
-.favorite:hover .inner .favorite__title_2 {
+.favorite.favorite-animate .inner .favorite__title_2 {
   transform: translate(0px);
   transition: 2.5s;
 }
@@ -882,7 +882,7 @@ header .badges .badge {
   transition: 1.5s;
 }
 
-.magazine:hover .inner .magazine__img {
+.magazine.magazine-animate .inner .magazine__img {
   opacity: 1;
 }
 
@@ -928,17 +928,17 @@ header .badges .badge {
   transform: translate(800px, 0);
 }
 
-.store:hover:hover .inner .store__title_1 {
+.store.store-animate .inner .store__title_1 {
   transform: translate(0px, 0);
   transition: 2s;
 }
 
-.store:hover:hover .inner .store__title_2 {
+.store.store-animate .inner .store__title_2 {
   transform: translate(0px, 0);
   transition: 2.5s;
 }
 
-.store:hover:hover .inner .btn.btn--black {
+.store.store-animate .inner .btn.btn--black {
   transform: translate(0px, 0);
   transition: transform 3s;
 }
@@ -981,10 +981,10 @@ header .badges .badge {
   transition: 1.5s;
 }
 
-.store:hover .inner .store__img_1,
-.store:hover .inner .store__img_2,
-.store:hover .inner .store__img_3,
-.store:hover .inner .store__img_4 {
+.store.store-animate .inner .store__img_1,
+.store.store-animate .inner .store__img_2,
+.store.store-animate .inner .store__img_3,
+.store.store-animate .inner .store__img_4 {
   opacity: 1;
 }
 
