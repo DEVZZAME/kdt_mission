@@ -83,9 +83,8 @@ window.onload = () => {
   visualInner.classList.add("visual-animate");
 };
 
-let scrollYpos;
 window.addEventListener("scroll", function () {
-  scrollYpos = window.scrollY;
+  let scrollYpos = window.scrollY;
   console.log(scrollYpos);
   
   // ADD CLASS peru-animate
