@@ -1,0 +1,53 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section {
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -40%);
+  border: 5px solid black;
+}
+
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  border-radius: 50%;
+  left: 0%;
+  top: 0%;
+  animation: circle ease 4s infinite;
+}
+
+@keyframes circle {
+  0% {
+    left: 0%;
+    top: 0%;
+  }
+
+  25% {
+    left: 85%;
+    top: 0%;
+  }
+
+  50% {
+    left: 85%;
+    top: 75%;
+  }
+
+  75% {
+    left: 0%;
+    top: 75%;
+  }
+
+  100% {
+    left: 0%;
+    top: 0%;
+  }
+}
